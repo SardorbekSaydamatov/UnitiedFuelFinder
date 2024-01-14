@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841917842B39C94C0044C9A7 /* SelectComapnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841917832B39C94C0044C9A7 /* SelectComapnyView.swift */; };
+		841917862B39CCCD0044C9A7 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841917852B39CCCC0044C9A7 /* CustomBackButton.swift */; };
+		841917892B3AC35B0044C9A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841917882B3AC35B0044C9A7 /* HomeView.swift */; };
+		8419FEAC2B195FED009D3121 /* SelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419FEAB2B195FED009D3121 /* SelectionButton.swift */; };
+		8419FEAE2B1A32CB009D3121 /* SelectStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419FEAD2B1A32CB009D3121 /* SelectStateView.swift */; };
+		8423218B2B1639F60076E922 /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423218A2B1639F60076E922 /* CheckButton.swift */; };
+		8423218F2B1651C70076E922 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423218E2B1651C70076E922 /* SubmitButton.swift */; };
+		842321922B1652300076E922 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842321912B1652300076E922 /* Padding.swift */; };
+		842321952B1660C40076E922 /* YTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842321942B1660C40076E922 /* YTextField+Extensions.swift */; };
+		842321982B1663270076E922 /* RegisterProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842321972B1663270076E922 /* RegisterProfileView.swift */; };
+		84541DD62B37428500DB754F /* YSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84541DD52B37428500DB754F /* YSelectionButton.swift */; };
+		849B94EB2B3C51D100B85235 /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B94EA2B3C51D100B85235 /* DrawerView.swift */; };
+		84A1D53B2B4EB31200B8DFCC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 84A1D53A2B4EB31200B8DFCC /* Realm */; };
+		84A1D53D2B4EB31200B8DFCC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84A1D53C2B4EB31200B8DFCC /* RealmSwift */; };
+		84A1D53F2B4EB32300B8DFCC /* StationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D53E2B4EB32300B8DFCC /* StationsModel.swift */; };
+		84A1D5422B4ECD6D00B8DFCC /* DataInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D5412B4ECD6D00B8DFCC /* DataInitializer.swift */; };
+		84A1D5442B4ECFB800B8DFCC /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D5432B4ECFB800B8DFCC /* StationsViewModel.swift */; };
+		84A1D5462B500F4300B8DFCC /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D5452B500F4300B8DFCC /* CommentsModel.swift */; };
+		84A1D5482B50114500B8DFCC /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D5472B50114500B8DFCC /* CommentsViewModel.swift */; };
+		84A1D54A2B5177C900B8DFCC /* AllCommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1D5492B5177C900B8DFCC /* AllCommentsView.swift */; };
+		84AD87E92B46FE80006481D9 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87E82B46FE80006481D9 /* EditProfileView.swift */; };
+		84AD87EC2B481C43006481D9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87EB2B481C43006481D9 /* SettingsView.swift */; };
+		84AD87F02B483EF3006481D9 /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87EF2B483EF3006481D9 /* SettingsButtonView.swift */; };
+		84AD87F32B485CC3006481D9 /* StationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87F22B485CC3006481D9 /* StationDetailsView.swift */; };
+		84AD87F52B486239006481D9 /* Scrollable+Stretchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87F42B486239006481D9 /* Scrollable+Stretchable.swift */; };
+		84AD87F72B486283006481D9 /* ScrollableModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87F62B486283006481D9 /* ScrollableModifiers.swift */; };
+		84AD87FC2B48FF00006481D9 /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87FB2B48FF00006481D9 /* RateView.swift */; };
+		84AD87FE2B4977B7006481D9 /* CommentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD87FD2B4977B7006481D9 /* CommentDetails.swift */; };
+		84B2161E2B14934A00F88A96 /* YTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2161D2B14934A00F88A96 /* YTextView.swift */; };
+		84B216202B1497C500F88A96 /* YTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2161F2B1497C400F88A96 /* YTextFieldView.swift */; };
+		84B2F4422B1F522900199BA0 /* StatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2F4412B1F522900199BA0 /* StatesViewModel.swift */; };
+		84B2F4452B1F6C4200199BA0 /* StatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2F4442B1F6C4200199BA0 /* StatesModel.swift */; };
+		84E347152B317163000E88AD /* SelectCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E347142B317163000E88AD /* SelectCityView.swift */; };
+		84E347172B31A34D000E88AD /* YSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E347162B31A34D000E88AD /* YSearchField.swift */; };
+		84ED08B02B137089001D42C4 /* UnitedFuelFinderPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED08AF2B137089001D42C4 /* UnitedFuelFinderPracticeApp.swift */; };
+		84ED08B42B13708A001D42C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED08B32B13708A001D42C4 /* Assets.xcassets */; };
+		84ED08B72B13708A001D42C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ED08B62B13708A001D42C4 /* Preview Assets.xcassets */; };
+		84ED08C12B137597001D42C4 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED08C02B137597001D42C4 /* AuthView.swift */; };
+		84EF335D2B4E8F7E00BE11E8 /* Realm+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF335C2B4E8F7E00BE11E8 /* Realm+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841917832B39C94C0044C9A7 /* SelectComapnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectComapnyView.swift; sourceTree = "<group>"; };
+		841917852B39CCCC0044C9A7 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		841917882B3AC35B0044C9A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8419FEAB2B195FED009D3121 /* SelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButton.swift; sourceTree = "<group>"; };
+		8419FEAD2B1A32CB009D3121 /* SelectStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStateView.swift; sourceTree = "<group>"; };
+		8423218A2B1639F60076E922 /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
+		8423218E2B1651C70076E922 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		842321912B1652300076E922 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		842321942B1660C40076E922 /* YTextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "YTextField+Extensions.swift"; sourceTree = "<group>"; };
+		842321972B1663270076E922 /* RegisterProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProfileView.swift; sourceTree = "<group>"; };
+		84541DD52B37428500DB754F /* YSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSelectionButton.swift; sourceTree = "<group>"; };
+		849B94EA2B3C51D100B85235 /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		84A1D53E2B4EB32300B8DFCC /* StationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsModel.swift; sourceTree = "<group>"; };
+		84A1D5412B4ECD6D00B8DFCC /* DataInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInitializer.swift; sourceTree = "<group>"; };
+		84A1D5432B4ECFB800B8DFCC /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
+		84A1D5452B500F4300B8DFCC /* CommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsModel.swift; sourceTree = "<group>"; };
+		84A1D5472B50114500B8DFCC /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		84A1D5492B5177C900B8DFCC /* AllCommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCommentsView.swift; sourceTree = "<group>"; };
+		84AD87E82B46FE80006481D9 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		84AD87EB2B481C43006481D9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		84AD87EF2B483EF3006481D9 /* SettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonView.swift; sourceTree = "<group>"; };
+		84AD87F22B485CC3006481D9 /* StationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsView.swift; sourceTree = "<group>"; };
+		84AD87F42B486239006481D9 /* Scrollable+Stretchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scrollable+Stretchable.swift"; sourceTree = "<group>"; };
+		84AD87F62B486283006481D9 /* ScrollableModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableModifiers.swift; sourceTree = "<group>"; };
+		84AD87FB2B48FF00006481D9 /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
+		84AD87FD2B4977B7006481D9 /* CommentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDetails.swift; sourceTree = "<group>"; };
+		84B2161D2B14934A00F88A96 /* YTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTextView.swift; sourceTree = "<group>"; };
+		84B2161F2B1497C400F88A96 /* YTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTextFieldView.swift; sourceTree = "<group>"; };
+		84B2F4412B1F522900199BA0 /* StatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesViewModel.swift; sourceTree = "<group>"; };
+		84B2F4442B1F6C4200199BA0 /* StatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesModel.swift; sourceTree = "<group>"; };
+		84E347142B317163000E88AD /* SelectCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityView.swift; sourceTree = "<group>"; };
+		84E347162B31A34D000E88AD /* YSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSearchField.swift; sourceTree = "<group>"; };
+		84ED08AC2B137089001D42C4 /* UnitedFuelFinderPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitedFuelFinderPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84ED08AF2B137089001D42C4 /* UnitedFuelFinderPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedFuelFinderPracticeApp.swift; sourceTree = "<group>"; };
+		84ED08B32B13708A001D42C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84ED08B62B13708A001D42C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84ED08C02B137597001D42C4 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		84EF335C2B4E8F7E00BE11E8 /* Realm+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84ED08A92B137089001D42C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1D53D2B4EB31200B8DFCC /* RealmSwift in Frameworks */,
+				84A1D53B2B4EB31200B8DFCC /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841917872B3AC3310044C9A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				841917882B3AC35B0044C9A7 /* HomeView.swift */,
+				849B94EA2B3C51D100B85235 /* DrawerView.swift */,
+				84AD87EA2B481C26006481D9 /* SettingsView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8423218C2B16519F0076E922 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				84B2161D2B14934A00F88A96 /* YTextView.swift */,
+				84B2161F2B1497C400F88A96 /* YTextFieldView.swift */,
+				84E347162B31A34D000E88AD /* YSearchField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		8423218D2B1651B00076E922 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8423218A2B1639F60076E922 /* CheckButton.swift */,
+				8423218E2B1651C70076E922 /* SubmitButton.swift */,
+				8419FEAB2B195FED009D3121 /* SelectionButton.swift */,
+				84541DD52B37428500DB754F /* YSelectionButton.swift */,
+				841917852B39CCCC0044C9A7 /* CustomBackButton.swift */,
+				84AD87EF2B483EF3006481D9 /* SettingsButtonView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		842321902B16521F0076E922 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8423218D2B1651B00076E922 /* Buttons */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		842321932B16608A0076E922 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				842321942B1660C40076E922 /* YTextField+Extensions.swift */,
+				84AD87F42B486239006481D9 /* Scrollable+Stretchable.swift */,
+				84EF335C2B4E8F7E00BE11E8 /* Realm+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		842321962B1662EA0076E922 /* RegisterProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				842321972B1663270076E922 /* RegisterProfileView.swift */,
+				8419FEAD2B1A32CB009D3121 /* SelectStateView.swift */,
+				84E347142B317163000E88AD /* SelectCityView.swift */,
+				841917832B39C94C0044C9A7 /* SelectComapnyView.swift */,
+			);
+			path = RegisterProfileView;
+			sourceTree = "<group>";
+		};
+		84A1D5402B4ECD4100B8DFCC /* DataInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				84A1D5412B4ECD6D00B8DFCC /* DataInitializer.swift */,
+			);
+			path = DataInitializer;
+			sourceTree = "<group>";
+		};
+		84AD87EA2B481C26006481D9 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				84AD87EB2B481C43006481D9 /* SettingsView.swift */,
+				84AD87E82B46FE80006481D9 /* EditProfileView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		84AD87F12B485C5F006481D9 /* StationViews */ = {
+			isa = PBXGroup;
+			children = (
+				84AD87F22B485CC3006481D9 /* StationDetailsView.swift */,
+				84A1D5492B5177C900B8DFCC /* AllCommentsView.swift */,
+				84AD87FD2B4977B7006481D9 /* CommentDetails.swift */,
+			);
+			path = StationViews;
+			sourceTree = "<group>";
+		};
+		84B216182B1491AD00F88A96 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				842321912B1652300076E922 /* Padding.swift */,
+				84AD87F62B486283006481D9 /* ScrollableModifiers.swift */,
+				8423218C2B16519F0076E922 /* TextFields */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		84B2F4402B1F51FA00199BA0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84B2F4412B1F522900199BA0 /* StatesViewModel.swift */,
+				84A1D5432B4ECFB800B8DFCC /* StationsViewModel.swift */,
+				84A1D5472B50114500B8DFCC /* CommentsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84B2F4432B1F6C2A00199BA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84B2F4442B1F6C4200199BA0 /* StatesModel.swift */,
+				84A1D53E2B4EB32300B8DFCC /* StationsModel.swift */,
+				84A1D5452B500F4300B8DFCC /* CommentsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84ED08A32B137089001D42C4 = {
+			isa = PBXGroup;
+			children = (
+				84ED08AE2B137089001D42C4 /* UnitedFuelFinderPractice */,
+				84ED08AD2B137089001D42C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84ED08AD2B137089001D42C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ED08AC2B137089001D42C4 /* UnitedFuelFinderPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84ED08AE2B137089001D42C4 /* UnitedFuelFinderPractice */ = {
+			isa = PBXGroup;
+			children = (
+				84ED08AF2B137089001D42C4 /* UnitedFuelFinderPracticeApp.swift */,
+				84A1D5402B4ECD4100B8DFCC /* DataInitializer */,
+				84B2F4432B1F6C2A00199BA0 /* Models */,
+				84B2F4402B1F51FA00199BA0 /* ViewModels */,
+				842321932B16608A0076E922 /* Extensions */,
+				842321902B16521F0076E922 /* Utils */,
+				84B216182B1491AD00F88A96 /* Modifiers */,
+				84ED08BD2B137559001D42C4 /* Views */,
+				84ED08B32B13708A001D42C4 /* Assets.xcassets */,
+				84ED08B52B13708A001D42C4 /* Preview Content */,
+			);
+			path = UnitedFuelFinderPractice;
+			sourceTree = "<group>";
+		};
+		84ED08B52B13708A001D42C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84ED08B62B13708A001D42C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84ED08BD2B137559001D42C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				841917872B3AC3310044C9A7 /* Home */,
+				84AD87F12B485C5F006481D9 /* StationViews */,
+				84ED08BE2B13756D001D42C4 /* Auth */,
+				84AD87FB2B48FF00006481D9 /* RateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84ED08BE2B13756D001D42C4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				84ED08BF2B137589001D42C4 /* Authenticate */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		84ED08BF2B137589001D42C4 /* Authenticate */ = {
+			isa = PBXGroup;
+			children = (
+				84ED08C02B137597001D42C4 /* AuthView.swift */,
+				842321962B1662EA0076E922 /* RegisterProfileView */,
+			);
+			path = Authenticate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84ED08AB2B137089001D42C4 /* UnitedFuelFinderPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84ED08BA2B13708A001D42C4 /* Build configuration list for PBXNativeTarget "UnitedFuelFinderPractice" */;
+			buildPhases = (
+				84ED08A82B137089001D42C4 /* Sources */,
+				84ED08A92B137089001D42C4 /* Frameworks */,
+				84ED08AA2B137089001D42C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitedFuelFinderPractice;
+			packageProductDependencies = (
+				84A1D53A2B4EB31200B8DFCC /* Realm */,
+				84A1D53C2B4EB31200B8DFCC /* RealmSwift */,
+			);
+			productName = UnitedFuelFinderPractice;
+			productReference = 84ED08AC2B137089001D42C4 /* UnitedFuelFinderPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84ED08A42B137089001D42C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84ED08AB2B137089001D42C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 84ED08A72B137089001D42C4 /* Build configuration list for PBXProject "UnitedFuelFinderPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84ED08A32B137089001D42C4;
+			packageReferences = (
+				84A1D5392B4EB31100B8DFCC /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 84ED08AD2B137089001D42C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84ED08AB2B137089001D42C4 /* UnitedFuelFinderPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84ED08AA2B137089001D42C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ED08B72B13708A001D42C4 /* Preview Assets.xcassets in Resources */,
+				84ED08B42B13708A001D42C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84ED08A82B137089001D42C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8419FEAE2B1A32CB009D3121 /* SelectStateView.swift in Sources */,
+				84AD87EC2B481C43006481D9 /* SettingsView.swift in Sources */,
+				841917892B3AC35B0044C9A7 /* HomeView.swift in Sources */,
+				841917862B39CCCD0044C9A7 /* CustomBackButton.swift in Sources */,
+				84AD87F52B486239006481D9 /* Scrollable+Stretchable.swift in Sources */,
+				84B2F4452B1F6C4200199BA0 /* StatesModel.swift in Sources */,
+				84AD87FE2B4977B7006481D9 /* CommentDetails.swift in Sources */,
+				84E347152B317163000E88AD /* SelectCityView.swift in Sources */,
+				84AD87FC2B48FF00006481D9 /* RateView.swift in Sources */,
+				84ED08B02B137089001D42C4 /* UnitedFuelFinderPracticeApp.swift in Sources */,
+				84ED08C12B137597001D42C4 /* AuthView.swift in Sources */,
+				84B216202B1497C500F88A96 /* YTextFieldView.swift in Sources */,
+				84AD87F02B483EF3006481D9 /* SettingsButtonView.swift in Sources */,
+				84B2F4422B1F522900199BA0 /* StatesViewModel.swift in Sources */,
+				84AD87F72B486283006481D9 /* ScrollableModifiers.swift in Sources */,
+				842321952B1660C40076E922 /* YTextField+Extensions.swift in Sources */,
+				84A1D5482B50114500B8DFCC /* CommentsViewModel.swift in Sources */,
+				84541DD62B37428500DB754F /* YSelectionButton.swift in Sources */,
+				8423218F2B1651C70076E922 /* SubmitButton.swift in Sources */,
+				84EF335D2B4E8F7E00BE11E8 /* Realm+Extensions.swift in Sources */,
+				84A1D5442B4ECFB800B8DFCC /* StationsViewModel.swift in Sources */,
+				8423218B2B1639F60076E922 /* CheckButton.swift in Sources */,
+				84AD87E92B46FE80006481D9 /* EditProfileView.swift in Sources */,
+				841917842B39C94C0044C9A7 /* SelectComapnyView.swift in Sources */,
+				842321982B1663270076E922 /* RegisterProfileView.swift in Sources */,
+				84AD87F32B485CC3006481D9 /* StationDetailsView.swift in Sources */,
+				849B94EB2B3C51D100B85235 /* DrawerView.swift in Sources */,
+				84A1D54A2B5177C900B8DFCC /* AllCommentsView.swift in Sources */,
+				84B2161E2B14934A00F88A96 /* YTextView.swift in Sources */,
+				8419FEAC2B195FED009D3121 /* SelectionButton.swift in Sources */,
+				84A1D53F2B4EB32300B8DFCC /* StationsModel.swift in Sources */,
+				84E347172B31A34D000E88AD /* YSearchField.swift in Sources */,
+				842321922B1652300076E922 /* Padding.swift in Sources */,
+				84A1D5462B500F4300B8DFCC /* CommentsModel.swift in Sources */,
+				84A1D5422B4ECD6D00B8DFCC /* DataInitializer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84ED08B82B13708A001D42C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84ED08B92B13708A001D42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84ED08BB2B13708A001D42C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnitedFuelFinderPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 9555ARGGFJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sardorbek.UnitedFuelFinderPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84ED08BC2B13708A001D42C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UnitedFuelFinderPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = 9555ARGGFJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sardorbek.UnitedFuelFinderPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84ED08A72B137089001D42C4 /* Build configuration list for PBXProject "UnitedFuelFinderPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ED08B82B13708A001D42C4 /* Debug */,
+				84ED08B92B13708A001D42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84ED08BA2B13708A001D42C4 /* Build configuration list for PBXNativeTarget "UnitedFuelFinderPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84ED08BB2B13708A001D42C4 /* Debug */,
+				84ED08BC2B13708A001D42C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84A1D5392B4EB31100B8DFCC /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84A1D53A2B4EB31200B8DFCC /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84A1D5392B4EB31100B8DFCC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		84A1D53C2B4EB31200B8DFCC /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84A1D5392B4EB31100B8DFCC /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84ED08A42B137089001D42C4 /* Project object */;
+}
